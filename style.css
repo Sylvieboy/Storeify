@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #173459;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #bad1f0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+    box-shadow: 0px,0px,0px, 35px #173459;
+    z-index: 100px;
+}
+.logo{
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif ;
+    color:   #4293fd;
+}
+nav a{
+    font-size: 25px;
+    color: white;
+    margin-left: 25px;
+    transition: 2s;
+}
+nav a:hover,
+nav a.active{
+    color: #4293fd;
+
+}
+
+.btn{
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #4293fd;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.btn:hover{
+    background-color: #4293fd;
+    color: white;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.mainpage h1{
+    font-size: 55px;
+    color: white;
+    font-weight: 900;
+    font-family: Arial;
+}
+.main h1 span{
+    color: #4293fd;
+}
+.mainpage p{
+    font-size: 30px;
+    color: white;
+    font-family: Arial;
+
+}
+.mainpage h6{
+    font-size: 25px;
+    color: #4293fd;
+    font-family:;
+    margin-bottom: 20px;
+}
+#srch{
+    padding: 20px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    outline: none;
+
+}
+.anchor button{
+    background-color: white;
+    padding:5px;
+    font-size: 10px;
+    color: #4293fd;
+}
+.foter{
+    background-color: #bad1f0;
+    padding: 20px;
+}
